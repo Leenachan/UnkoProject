@@ -17,7 +17,7 @@ public class gameManager : MonoBehaviour
     {
         if (Input.GetKey("mouse 0"))
         {
-            GameObject.Instantiate(objSphere, new Vector3(205, 209, 116), Quaternion.identity);
+            GameObject.Instantiate(objSphere, new Vector3(264, 206, 112), Quaternion.identity);
         }
     }
 }
